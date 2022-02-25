@@ -24,14 +24,24 @@ class Stack{
 
 
     }
+    pop(){
+
+        if(this.count==0) {
+            console.log("no items to pop!!");
+        }
+        else{
+        let delete_item=this.items[this.count-1];
+        this.count=this.count-1;
+        console.log(`${delete_item} removed`);
+        return delete_item;
+
+        }
+
+
+    }
+
+
 
 
 }
 
-const stack = new Stack();
-stack.push(100);
-stack.push(200);
-stack.push(300);
-stack.push(100);
-stack.push(200);
-stack.push(300);

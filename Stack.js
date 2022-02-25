@@ -45,6 +45,10 @@ class Stack{
         console.log(`top item of the stack is ${this.items[this.count-1]}`)
         return this.items[this.count-1]
     }
+    stack_size(){
+
+        console.log(`size of stack is ${this.count}`);
+    }
 
 
 

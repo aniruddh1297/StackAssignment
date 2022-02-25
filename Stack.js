@@ -40,6 +40,12 @@ class Stack{
 
     }
 
+    peek(){
+
+        console.log(`top item of the stack is ${this.items[this.count-1]}`)
+        return this.items[this.count-1]
+    }
+
 
 
 

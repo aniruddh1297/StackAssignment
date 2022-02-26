@@ -55,3 +55,25 @@ class Stack{
 
 }
 
+
+const stack = new Stack();
+stack.push(100);
+stack.push(200);
+stack.push(300);
+stack.push(100);
+stack.push(200);
+stack.push(300);
+stack.push(200);
+stack.push(300);
+stack.push(300);
+stack.push(200);
+stack.push(300);
+stack.push(300);
+stack.push(200);
+stack.push(300);
+stack.pop();
+stack.peek();
+stack.push(500);
+stack.peek();
+stack.stack_size();
+stack.push(110);
